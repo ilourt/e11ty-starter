@@ -1,0 +1,32 @@
+/.local/
+/~/
+/home/
+/app
+/.cache
+/.tmp
+# /docs/
+/lib/
+/bin/
+/.shards/
+*.dwarf
+._*
+*.log
+.idea/
+
+# OS
+.DS_Store
+.DS_Store?
+*[Tt]humbs.db
+.Spotlight-V100
+.Trashes
+.Trash-1000/
+*.Trashes
+
+# Dependencies should be locked in production (comment in production)
+package-lock.json
+yarn.lock
+
+# Project
+node_modules
+dist
+_site

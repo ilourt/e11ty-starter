@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- In dev env add script to enable hmr -->
+    {% if cfg.e11Env == 'development' %}
+    <script type="module" src="/_snowpack/hmr-client.js"></script>
+    {% endif %}
+
+    {% for script in scripts %}
+    <script src="/js/{{script}}"></script>
+    {% endfor %}
+
+    <link rel="stylesheet" href="/css/app.css" />
+    <title>{{title}}</title>
+  </head>
+  <body>
+    {{content | safe}}
+  </body>
+</html>
