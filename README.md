@@ -24,9 +24,10 @@ default is bash which allow to have a bash instance inside the container
 
 ## LICENSE
 
-[MIT](https://github.com/craft-framework/craft/blob/master/LICENSE) (c) 2020, Nicolas Talle.
+[MIT](https://github.com/ilourt/e11ty-starter/blob/master/LICENSE) (c) 2020, Irwin Lourtet.
 
 ## Author
 
-![Irwin Lourtet](https://fr.gravatar.com/userimage/111772713/5a25fd0dd13eff4f50c08b7db868f6c6.jpg)
-[Irwin Lourtet](https://github.com/ilourt)
+| [![Irwin Lourtet](https://fr.gravatar.com/userimage/111772713/5a25fd0dd13eff4f50c08b7db868f6c6.jpg?s=64)](https://github.com/ilourt) |
+|---|
+| [Irwin Lourtet](https://github.com/ilourt) |
